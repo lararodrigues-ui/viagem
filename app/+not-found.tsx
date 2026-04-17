@@ -6,7 +6,7 @@ export default function NotFoundScreen() {
     <>
       <Stack.Screen options={{ title: 'Opss! Nao encontrado' }} />
       <View style={styles.container}>
-         <Link href="/index" style={styles.button}>
+         <Link href="/" style={styles.button}>
            Voltar para tela inicial!
          </Link>
       </View>
@@ -17,7 +17,7 @@ export default function NotFoundScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#80b0eb',
+        backgroundColor: '#6cc0f8',
         justifyContent: 'center',
         alignItems: 'center',
     },
