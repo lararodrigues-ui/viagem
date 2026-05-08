@@ -38,6 +38,13 @@ export default function TabLayout() {
       ),
     }}
  />
+    <Tabs.Screen name="edit" 
+    options={{ title: 'EDIÇÂO', 
+    tabBarIcon: ({ color, focused }) => (
+      <Ionicons name={focused ? 'camera' : 'camera-outline'} color={color} size={24} />
+      ),
+    }}
+ />
   </Tabs> 
   );
 }

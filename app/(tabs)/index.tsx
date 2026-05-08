@@ -2,6 +2,7 @@ import { Text, View, StyleSheet, ScrollView } from "react-native";
 
 export default function Index() {
   return (
+    
     <ScrollView style={styles.container}>
       <View style={styles.content}>
         
